@@ -1,0 +1,20 @@
+{
+  "client_id": "https://ben7am1n.github.io/client.json",
+  "client_name": "TAKSY OS — DSH ElevenLabs MCP",
+  "client_uri": "https://taksy.africa",
+  "redirect_uris": [
+    "http://127.0.0.1:45876/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "scope": "convai_read convai_write text_to_speech speech_history_read flows image_video_generation voice_generation"
+}
